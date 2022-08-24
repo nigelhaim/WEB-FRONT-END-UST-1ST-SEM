@@ -1,0 +1,142 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header{
+    top:0;
+    position: fixed;
+    display: flexbox;
+    width: 100%;
+    font-size: 18px;
+    height: 7vh;
+    background-color: white;
+}
+
+#header-img{
+    width: 25%;
+    height:auto;
+    float: left;
+    top:50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#nav-bar{
+    float: right;
+}
+#nav-bar a{
+    margin-left: 75px;
+    margin-right: 75px;
+    text-decoration: none;
+    color: black;
+    top:100px;
+}
+main{
+    display: block;
+}
+section{
+    top:100px;
+    display:flexbox;
+    margin-top: 10px;
+}
+
+#form_content{
+    text-align: center;
+}
+
+#form input{
+    margin-bottom: 30px;
+}
+#form #email{
+    width: 15%;
+    height: auto;
+}
+#form #submit{
+    background-color: gold;
+    font-weight: bolder;
+    border:none;
+    padding: 10px;
+}
+#specs{
+    position: relative;
+    flex-direction: row;
+    left: 25%;
+}
+.spec_content{
+    display: flex;
+}
+
+.spec_content #icon{
+   color: orange;
+    margin-right:50px;
+    margin-top:25px;
+}
+.fire{
+    margin-left: 25px;
+}
+
+#vid{
+    margin-top: 150px;
+    text-align: center;
+}
+#selection{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+#select{
+    text-align: center;
+    border: 1px solid black;
+    margin: 50px;
+    padding: 50px;
+    padding-top: 0;
+    width: 50%;
+}
+
+#select .head{
+    background-size: cover;
+}
+
+button{
+    background-color: gold;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer{
+    background-color: gainsboro;
+
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+@media (max-width:600px){
+    header{
+        display: inline-block;
+        width: 100%;
+        float:none
+    }
+    #nav-bar{
+        float: none;
+    }
+    #header-img{
+        width: 100%;
+        height:auto;
+        float: none;
+        top:50%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    select{
+        display:block;
+    }
+}
