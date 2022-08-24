@@ -1,0 +1,177 @@
+body{
+    width:100%;  
+    margin:0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    overflow-x: hidden;
+}   
+
+header{
+    width: 100%;
+    background:linear-gradient(black, transparent);
+    position: fixed;
+    top:0;
+    display: flex;
+    z-index: 999;
+    padding:20px;
+}
+main{ 
+    position: inherit;
+    background-color: black;
+    height: 100%;
+
+}
+#welcome-content{
+    color:yellow;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    text-shadow:
+    0 0 7px goldenrod,
+    0 0 10px goldenrod,
+    0 0 21px yellow,
+    0 0 42px orange,
+    0 0 82px orange,
+    0 0 92px orange,
+    0 0 102px orange,
+    0 0 90px orange;
+    
+}
+
+h1{
+    font-weight: 600;
+    font-size: 116px;
+}
+p{
+    font-weight: 300;
+    font-size: 24px;
+}
+#welcome-section{
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1633886038251-66242d6cf688?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#logo{
+    width: 70px;
+    float: left;
+}
+#navbar{
+    float: right;
+    position: inherit;
+    right: 5px;
+    font-size:18px;
+    position: fixed;
+    top:0vh;
+    
+}
+#nav-link{
+    float: right;
+    margin: 5px;
+    padding: 15px;
+    text-decoration: none;
+    color: gold;
+    font-weight: 900; 
+    text-shadow:
+    0 0 7px goldenrod,
+    0 0 10px goldenrod,
+    0 0 21px yellow,
+    0 0 42px black,
+    0 0 82px black,
+    0 0 92px black,
+    0 0 102px black,
+    0 0 90px black;
+}
+#nav-link:hover{
+    background-color: gold;
+    background-size: cover;
+    color: black;
+}
+#welcome-section{
+
+    text-align:center;
+}
+section{
+    margin: -10px;
+}
+
+#projects{
+    height:120vh;
+    color:white;
+    top:-100px;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    padding: 10px;
+}
+#aboutMe{
+    background-color: goldenrod;
+    height:100vh;
+    text-align: center;
+}
+
+.project-tile{
+    color: goldenrod;
+    top: 100px;
+}
+#aboutme_content{
+    position: relative;
+    top: 300px;
+    width: 80%;
+    text-align: center;
+}
+iframe{
+    width: 200;
+    height: auto;
+    margin: 10px;
+}
+
+#contact{
+    position: relative;
+    top:-100px;
+    height: 120vh;
+    background-color: goldenrod;
+}
+#contact_me_content{
+    margin: -50px;
+    position: inherit;
+    top:450px;
+    text-align: center;
+}
+
+#profile-link{
+    width: 500px;
+    height: auto;
+    color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: goldenrod;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+@media(max-width:600px){
+    div{
+        width: 200px;
+        height: auto;
+        text-align: center;
+    }
+    
+}
